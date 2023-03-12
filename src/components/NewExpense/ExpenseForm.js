@@ -32,7 +32,7 @@ const ExpenseForm = (props) => {
     //pass data from child to parent
     props.onSaveExpenseData(expenseData);
 
-    //clear the form input by resetting the state
+    //clear the form input by resetting the state using two way binding setup using value property
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
